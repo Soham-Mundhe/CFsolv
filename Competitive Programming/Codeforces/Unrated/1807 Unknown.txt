@@ -22,9 +22,13 @@ int main(){
 
         (a + b == c) ? cout<<'+'<<endl :cout<<'-'<<endl; 
     }
-    return 0;
 
 
 
     
+    return 0;
+
+
+
+
 }
