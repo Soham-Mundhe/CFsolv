@@ -1,10 +1,10 @@
 {
-  "repositoryVersion": 1,
-  "generatedBy": "CFHub",
-  "platform": "Codeforces",
-  "layout": "rating/problem-folder",
-  "schemaVersion": 1,
   "createdAt": "2026-07-20T17:29:06.006Z",
-  "lastUpdated": "2026-07-20T17:29:06.007Z",
-  "lastMigration": null
+  "generatedBy": "CFHub",
+  "lastMigration": null,
+  "lastUpdated": "2026-07-20T17:55:08.463Z",
+  "layout": "rating/problem-folder",
+  "platform": "Codeforces",
+  "repositoryVersion": 1,
+  "schemaVersion": 1
 }
