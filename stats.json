@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "CFHub",
+  "platform": "Codeforces",
+  "lastUpdated": "2026-07-20T17:29:06.007Z",
+  "statistics": {
+    "totalSolved": 1,
+    "highestRating": 0,
+    "averageRating": 0,
+    "contestCount": 0,
+    "languages": {
+      "Unknown": 1
+    },
+    "ratings": {},
+    "tags": {},
+    "recentSolutions": [
+      {
+        "contestId": "732",
+        "problemIndex": "Unknown",
+        "problemName": "Unknown",
+        "rating": "Unrated",
+        "language": "Unknown",
+        "uploadDate": "2026-07-20T17:29:06.007Z",
+        "path": "Codeforces/Unrated/732Unknown - Unknown/solution.txt",
+        "commitSha": "17cf84e3c0bfbc9aebda19d68484535e7c9c1874"
+      }
+    ]
+  }
+}
