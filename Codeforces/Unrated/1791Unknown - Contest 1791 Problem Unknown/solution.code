@@ -1,0 +1,55 @@
+/*
+==================================================
+
+Platform   : Codeforces
+
+Problem    : Contest 1791 Problem Unknown
+
+Contest    : Contest #1791
+
+URL        : https://codeforces.com/problemset/problem/1791/Unknown
+
+Difficulty : Unrated
+
+Tags       : None
+
+Language   : Source Code
+
+Time       : 0 ms
+
+Memory     : 0 KB
+
+Submitted  : 2026-07-21 11:13 UTC
+
+Uploaded By: CFHub
+
+==================================================
+*/
+
+#include<iostream>
+#include<vector>
+#include <numeric>
+#include<set>
+#include <algorithm>
+#include <cctype>
+#include <iomanip>
+#include <queue>
+#include <unordered_map>
+#include <climits>
+#include <unordered_set>
+#include <ctype.h>
+using namespace std;
+
+int main(){
+    int t;cin>>t;
+
+    while(t--){
+        string s;cin>>s;
+        string Q = "codeforces";
+
+        if(Q.find(s) != string::npos) cout<<"YES"<<endl;
+        else cout<<"NO"<<endl;
+    }
+    return 0;
+
+}
