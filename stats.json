@@ -1,6 +1,6 @@
 {
   "generatedBy": "CFHub",
-  "lastUpdated": "2026-07-22T17:23:08.732Z",
+  "lastUpdated": "2026-07-22T18:08:41.699Z",
   "platform": "Codeforces",
   "schemaVersion": 1,
   "statistics": {
@@ -8,20 +8,30 @@
     "contestCount": 0,
     "highestRating": 0,
     "languages": {
-      "Source Code": 9,
+      "Source Code": 10,
       "Unknown": 1
     },
     "ratings": {},
     "recentSolutions": [
       {
+        "contestId": "1760",
+        "problemIndex": "Unknown",
+        "problemName": "Contest 1760 Problem Unknown",
+        "rating": "Unrated",
+        "language": "Source Code",
+        "uploadDate": "2026-07-22T18:08:41.698Z",
+        "path": "Codeforces/Unrated/1760Unknown - Contest 1760 Problem Unknown/solution.code",
+        "commitSha": "af0bbadb7b847fc28e1e61c8189fd70beb248a14"
+      },
+      {
+        "commitSha": "e56a704a730b1dc3bb10bd9e857bc8abbb892ebd",
         "contestId": "1915",
+        "language": "Source Code",
+        "path": "Codeforces/Unrated/1915Unknown - Contest 1915 Problem Unknown/solution.code",
         "problemIndex": "Unknown",
         "problemName": "Contest 1915 Problem Unknown",
         "rating": "Unrated",
-        "language": "Source Code",
-        "uploadDate": "2026-07-22T17:23:08.732Z",
-        "path": "Codeforces/Unrated/1915Unknown - Contest 1915 Problem Unknown/solution.code",
-        "commitSha": "e56a704a730b1dc3bb10bd9e857bc8abbb892ebd"
+        "uploadDate": "2026-07-22T17:23:08.732Z"
       },
       {
         "commitSha": "4a2a52e578730be620137f58cd2d815ae289a3e7",
@@ -115,6 +125,6 @@
       }
     ],
     "tags": {},
-    "totalSolved": 10
+    "totalSolved": 11
   }
 }
