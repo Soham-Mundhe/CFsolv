@@ -1,0 +1,57 @@
+/*
+==================================================
+
+Platform   : Codeforces
+
+Problem    : Contest 1409 Problem Unknown
+
+Contest    : Contest #1409
+
+URL        : https://codeforces.com/problemset/problem/1409/Unknown
+
+Difficulty : Unrated
+
+Tags       : None
+
+Language   : Source Code
+
+Time       : 0 ms
+
+Memory     : 0 KB
+
+Submitted  : 2026-07-22 17:17 UTC
+
+Uploaded By: CFHub
+
+==================================================
+*/
+
+#include<iostream>
+#include<vector>
+#include <numeric>
+#include<set>
+#include <algorithm>
+#include <cctype>
+#include <iomanip>
+#include <queue>
+#include <unordered_map>
+#include <climits>
+#include <unordered_set>
+#include <ctype.h>
+using namespace std;
+
+int main(){
+    int t;cin>>t;
+
+    while(t--){
+        int a,b;cin>>a>>b;
+        int dif = abs(a-b);
+
+        cout<<(dif + 9)/10 <<endl;
+    }
+
+    
+    
+    return 0;
+
+}
