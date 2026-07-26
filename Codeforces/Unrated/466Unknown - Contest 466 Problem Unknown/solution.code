@@ -1,0 +1,54 @@
+/*
+==================================================
+
+Platform   : Codeforces
+
+Problem    : Contest 466 Problem Unknown
+
+Contest    : Contest #466
+
+URL        : https://codeforces.com/problemset/problem/466/Unknown
+
+Difficulty : Unrated
+
+Tags       : None
+
+Language   : Source Code
+
+Time       : 0 ms
+
+Memory     : 0 KB
+
+Submitted  : 2026-07-26 04:02 UTC
+
+Uploaded By: CFHub
+
+==================================================
+*/
+
+#include<iostream>
+#include<vector>
+#include <numeric>
+#include<set>
+#include <algorithm>
+#include <cctype>
+#include <iomanip>
+#include <queue>
+#include <unordered_map>
+#include <climits>
+#include <unordered_set>
+#include <ctype.h>
+using namespace std;
+
+int main(){
+    int n,m,a,b;cin>>n>>m>>a>>b;
+
+    int cost1 = n * a;
+    int cost2 = ((n+m-1)/m) * b;
+    int cost3 = (n / m) * b + (n%m)*a;
+
+    cout<<min({cost1,cost2,cost3});
+
+
+    return 0;
+}
