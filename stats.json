@@ -1,6 +1,6 @@
 {
   "generatedBy": "CFHub",
-  "lastUpdated": "2026-08-01T14:16:28.062Z",
+  "lastUpdated": "2026-08-01T14:20:07.635Z",
   "platform": "Codeforces",
   "schemaVersion": 1,
   "statistics": {
@@ -8,20 +8,30 @@
     "contestCount": 0,
     "highestRating": 0,
     "languages": {
-      "Source Code": 27,
+      "Source Code": 28,
       "Unknown": 1
     },
     "ratings": {},
     "recentSolutions": [
       {
+        "contestId": "1703",
+        "problemIndex": "Unknown",
+        "problemName": "Contest 1703 Problem Unknown",
+        "rating": "Unrated",
+        "language": "Source Code",
+        "uploadDate": "2026-08-01T14:20:07.635Z",
+        "path": "Codeforces/Unrated/1703Unknown - Contest 1703 Problem Unknown/solution.code",
+        "commitSha": "12d71b11131ba59c7732b2c0a6e9fbbcb060d604"
+      },
+      {
+        "commitSha": "6121e49dc9a962afc258bfaa138e1ad485e6e27d",
         "contestId": "1367",
+        "language": "Source Code",
+        "path": "Codeforces/Unrated/1367Unknown - Contest 1367 Problem Unknown/solution.code",
         "problemIndex": "Unknown",
         "problemName": "Contest 1367 Problem Unknown",
         "rating": "Unrated",
-        "language": "Source Code",
-        "uploadDate": "2026-08-01T14:16:28.062Z",
-        "path": "Codeforces/Unrated/1367Unknown - Contest 1367 Problem Unknown/solution.code",
-        "commitSha": "6121e49dc9a962afc258bfaa138e1ad485e6e27d"
+        "uploadDate": "2026-08-01T14:16:28.062Z"
       },
       {
         "commitSha": "12e1bd79a1b986a92ac19d18abda9ffa361d1fa8",
@@ -202,19 +212,9 @@
         "problemName": "Contest 1915 Problem Unknown",
         "rating": "Unrated",
         "uploadDate": "2026-07-22T17:23:08.732Z"
-      },
-      {
-        "commitSha": "4a2a52e578730be620137f58cd2d815ae289a3e7",
-        "contestId": "1409",
-        "language": "Source Code",
-        "path": "Codeforces/Unrated/1409Unknown - Contest 1409 Problem Unknown/solution.code",
-        "problemIndex": "Unknown",
-        "problemName": "Contest 1409 Problem Unknown",
-        "rating": "Unrated",
-        "uploadDate": "2026-07-22T17:17:53.994Z"
       }
     ],
     "tags": {},
-    "totalSolved": 28
+    "totalSolved": 29
   }
 }
