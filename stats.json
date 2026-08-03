@@ -1,6 +1,6 @@
 {
   "generatedBy": "CFHub",
-  "lastUpdated": "2026-08-03T01:48:32.049Z",
+  "lastUpdated": "2026-08-03T01:56:19.548Z",
   "platform": "Codeforces",
   "schemaVersion": 1,
   "statistics": {
@@ -8,20 +8,30 @@
     "contestCount": 0,
     "highestRating": 0,
     "languages": {
-      "Source Code": 32,
+      "Source Code": 33,
       "Unknown": 1
     },
     "ratings": {},
     "recentSolutions": [
       {
+        "contestId": "703",
+        "problemIndex": "Unknown",
+        "problemName": "Contest 703 Problem Unknown",
+        "rating": "Unrated",
+        "language": "Source Code",
+        "uploadDate": "2026-08-03T01:56:19.548Z",
+        "path": "Codeforces/Unrated/703Unknown - Contest 703 Problem Unknown/solution.code",
+        "commitSha": "06a4227df9c428350e9abc7912cf7741e3690f71"
+      },
+      {
+        "commitSha": "71e54f6d1db2c1be5e36332fb6c40b151eae3bec",
         "contestId": "80",
+        "language": "Source Code",
+        "path": "Codeforces/Unrated/80Unknown - Contest 80 Problem Unknown/solution.code",
         "problemIndex": "Unknown",
         "problemName": "Contest 80 Problem Unknown",
         "rating": "Unrated",
-        "language": "Source Code",
-        "uploadDate": "2026-08-03T01:48:32.049Z",
-        "path": "Codeforces/Unrated/80Unknown - Contest 80 Problem Unknown/solution.code",
-        "commitSha": "71e54f6d1db2c1be5e36332fb6c40b151eae3bec"
+        "uploadDate": "2026-08-03T01:48:32.049Z"
       },
       {
         "commitSha": "c26e1f3195ad4f4c3a430793908b9eece252695c",
@@ -202,19 +212,9 @@
         "problemName": "Contest 1903 Problem Unknown",
         "rating": "Unrated",
         "uploadDate": "2026-07-23T16:43:31.408Z"
-      },
-      {
-        "commitSha": "c34aba3e066e8b94acc36d42b7cebd59ed3166c8",
-        "contestId": "141",
-        "language": "Source Code",
-        "path": "Codeforces/Unrated/141Unknown - Contest 141 Problem Unknown/solution.code",
-        "problemIndex": "Unknown",
-        "problemName": "Contest 141 Problem Unknown",
-        "rating": "Unrated",
-        "uploadDate": "2026-07-23T16:30:53.614Z"
       }
     ],
     "tags": {},
-    "totalSolved": 33
+    "totalSolved": 34
   }
 }
