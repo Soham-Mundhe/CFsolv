@@ -1,0 +1,65 @@
+/*
+==================================================
+
+Platform   : Codeforces
+
+Problem    : Contest 703 Problem Unknown
+
+Contest    : Contest #703
+
+URL        : https://codeforces.com/problemset/problem/703/Unknown
+
+Difficulty : Unrated
+
+Tags       : None
+
+Language   : Source Code
+
+Time       : 0 ms
+
+Memory     : 0 KB
+
+Submitted  : 2026-08-03 01:56 UTC
+
+Uploaded By: CFHub
+
+==================================================
+*/
+
+#include<iostream>
+#include<vector>
+#include <numeric>
+#include<set>
+#include <algorithm>
+#include <cctype>
+#include <iomanip>
+#include <queue>
+#include <unordered_map>
+#include <climits>
+#include <unordered_set>
+#include <ctype.h>
+using namespace std;
+
+int main(){
+    int t;cin>>t;
+
+    
+    int mica = 0;
+    int ca = 0;
+
+    while(t--){
+        int m,c;cin>>m>>c;
+
+        if(m > c)mica++;
+        else if (c > m)ca++;
+
+    }
+
+    if(mica > ca)cout<<"Mishka"<<endl;
+    else if(ca > mica)cout<<"Chris" <<endl;
+    else cout<<"Friendship is magic!^^" <<endl;
+
+
+    return 0;
+    
+}
