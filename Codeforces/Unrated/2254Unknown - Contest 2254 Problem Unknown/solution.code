@@ -19,7 +19,7 @@ Time       : 0 ms
 
 Memory     : 0 KB
 
-Submitted  : 2026-08-04 15:04 UTC
+Submitted  : 2026-08-04 15:07 UTC
 
 Uploaded By: CFHub
 
@@ -46,33 +46,27 @@ int main() {
     cin >> t;
 
     while (t--) {
-        int a, b, c;
-        cin >> a >> b >> c;
+       int n;cin>>n;
+       string s;cin>>s;
 
-        int ans = 0;
 
-        while (a != b && b != c && a != c) {
-
-           
-            if (a > b && a > c)
-                a--;
-            else if (b > a && b > c)
-                b--;
-            else
-                c--;
-
-           
-            if (a < b && a < c)
-                a++;
-            else if (b < a && b < c)
-                b++;
-            else
-                c++;
-
-            ans++;
+       int base = 1;
+       for(int i = 1;i < n;i++){
+            if(s[i] != s[i -1])
+                base++;
         }
 
-        cout << ans << endl;
+       int ans = base;
+
+       for(int i = 1;i < n-1;i++){
+            if(s[i-1] == s[i+1] && s[i] != s[i - 1]){
+                ans = min(ans,base-2);
+            }else if(s[i] != s[i-1] && s[i] != s[i+1]){
+                ans = min(ans,base - 1);
+            }
+        }
+
+        cout<<ans<<endl;
     }
 
     return 0;
