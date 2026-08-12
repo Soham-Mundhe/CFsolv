@@ -1,6 +1,6 @@
 {
   "generatedBy": "CFHub",
-  "lastUpdated": "2026-08-11T04:40:16.122Z",
+  "lastUpdated": "2026-08-12T14:28:23.137Z",
   "platform": "Codeforces",
   "schemaVersion": 1,
   "statistics": {
@@ -8,20 +8,30 @@
     "contestCount": 0,
     "highestRating": 0,
     "languages": {
-      "Source Code": 45,
+      "Source Code": 46,
       "Unknown": 1
     },
     "ratings": {},
     "recentSolutions": [
       {
+        "contestId": "492",
+        "problemIndex": "Unknown",
+        "problemName": "Contest 492 Problem Unknown",
+        "rating": "Unrated",
+        "language": "Source Code",
+        "uploadDate": "2026-08-12T14:28:23.137Z",
+        "path": "Codeforces/Unrated/492Unknown - Contest 492 Problem Unknown/solution.code",
+        "commitSha": "354d58e09e4a055c67f98e62ae25caf946c4e6b7"
+      },
+      {
+        "commitSha": "7e2fb658546c09cefb4ea90d83a0e7faafa40b09",
         "contestId": "1850",
+        "language": "Source Code",
+        "path": "Codeforces/Unrated/1850Unknown - Contest 1850 Problem Unknown/solution.code",
         "problemIndex": "Unknown",
         "problemName": "Contest 1850 Problem Unknown",
         "rating": "Unrated",
-        "language": "Source Code",
-        "uploadDate": "2026-08-11T04:40:16.122Z",
-        "path": "Codeforces/Unrated/1850Unknown - Contest 1850 Problem Unknown/solution.code",
-        "commitSha": "7e2fb658546c09cefb4ea90d83a0e7faafa40b09"
+        "uploadDate": "2026-08-11T04:40:16.122Z"
       },
       {
         "commitSha": "08ec75c105a7f06b627ed478713d5c5c62d44d21",
@@ -202,19 +212,9 @@
         "problemName": "Contest 1367 Problem Unknown",
         "rating": "Unrated",
         "uploadDate": "2026-08-01T14:16:28.062Z"
-      },
-      {
-        "commitSha": "12e1bd79a1b986a92ac19d18abda9ffa361d1fa8",
-        "contestId": "363",
-        "language": "Source Code",
-        "path": "Codeforces/Unrated/363Unknown - Contest 363 Problem Unknown/solution.code",
-        "problemIndex": "Unknown",
-        "problemName": "Contest 363 Problem Unknown",
-        "rating": "Unrated",
-        "uploadDate": "2026-08-01T14:09:46.528Z"
       }
     ],
     "tags": {},
-    "totalSolved": 46
+    "totalSolved": 47
   }
 }
