@@ -19,7 +19,7 @@ Time       : 0 ms
 
 Memory     : 0 KB
 
-Submitted  : 2026-07-28 15:53 UTC
+Submitted  : 2026-08-15 10:46 UTC
 
 Uploaded By: CFHub
 
@@ -40,21 +40,37 @@ Uploaded By: CFHub
 #include <ctype.h>
 using namespace std;
 
-int main(){
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    
     int t;cin>>t;
 
     while(t--){
-        string s;cin>>s;
+        int n;cin>>n;
 
-        if(s == "abc")cout<<"YES"<<endl;
-        if(s == "acb")cout<<"YES"<<endl;
-        if(s == "bac")cout<<"YES"<<endl;
-        if(s == "bca")cout<<"NO"<<endl;
-        if(s == "cab")cout<<"NO"<<endl;
-        if(s == "cba")cout<<"YES"<<endl;
+        vector<int>arr(n);
+        for(int i = 0;i < n;i++){
+            cin>>arr[i];
+        }
+
+        sort(arr.begin(),arr.end());
+
+        arr[0] = arr[0] + 1;
+
+        int ans = 1;
+
+        for(int x : arr){
+            ans *= x;
+        }
+
+        cout<<ans<<endl;
+
     }
-    
 
-    return 0;
+
     
+    
+    return 0;
 }
